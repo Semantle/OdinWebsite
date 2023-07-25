@@ -7,6 +7,10 @@
     font-family: Roboto, sans-serif;
 }
 
+body {
+    background-color: #F9FAF8;
+}
+
 .header {
     width: 100%;
     background-color: #1F2937;
@@ -106,6 +110,8 @@ a {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #F9FAF8;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .box2 h1 {
@@ -167,10 +173,65 @@ a {
     color: #1F2937;
     padding: 18px;
     padding-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .box3-author {
     font-size: 20px;
     align-self: flex-end;
     padding: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box4 {
+    width: 100%;
+}
+
+.content-box4 {
+    background-color: #3882F6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 18px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.box4-left {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    padding: 18px;
+}
+
+.box4-left h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.box4-left p {
+    color: #F9FAF8;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.box4-right {
+    margin: auto;
+    max-width: 500px;
+    padding: 18px;
+    display: flex;
+}
+
+.box4-sign-up {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
 }
