@@ -145,3 +145,32 @@ a {
     margin: 4px;
     text-align: center;
 }
+
+.box3 {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+}
+
+.content-box3{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.box3-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 18px;
+    padding-bottom: 0px;
+}
+
+.box3-author {
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 18px;
+}
